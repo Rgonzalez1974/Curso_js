@@ -1,0 +1,53 @@
+@media (min-width: 680px) {
+    #encabezado-superior {
+        width: 99vw;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .link-encabezado {
+        max-width: 50%;
+        text-align: right;
+
+    }
+
+    .link-usuario {
+        max-width: 50%;
+        text-align: left;
+
+    }
+
+    #logo {
+        width: 33%;
+    }
+
+    #copia-encabezado {
+        max-width: 95%;
+        text-align: right;
+        width: 33%;
+    }
+
+    #busqueda {
+        width: 23%;
+    }
+
+   .navbar{
+        display: flex;
+        justify-content: space-between;
+        padding: 5px 0;
+        
+
+    }
+    .hamburguesa-icon {
+        display: none;
+    }
+
+    
+
+    .encabezado-inferior ul {
+        display: flex;
+    }
+
+    .encabezado-inferior li {
+        margin: 0 8px;
+    }

@@ -1,0 +1,200 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #ebebeb;
+    font-family: robot, sant-serif;
+    
+    font-size: 1rem;
+}
+
+img {
+    max-width: 100%;
+}
+
+.principal {
+    flex-direction: column;
+    width: 100vw;
+}
+
+.producto {
+    justify-content: center;
+}
+
+#homeBanner {
+    width: 100vw;
+    display: flex;
+    
+}
+
+.articulo {
+    padding: 15px;
+}
+
+.main_articulo {
+    border-top: solid 1px #ebebeb;
+    display: flex;
+    width: 100%;
+    background-color: white;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+    border: 15px;
+    justify-content: right;
+    position: relative;
+}
+
+#titulares {
+    font-size: 24px;
+    text-align: center;
+    width: 90%;
+    color: #666;
+    margin: 20px 0px;
+}
+
+.imagen {
+    background-color: white;
+    width: 100%;
+}
+
+.pdv {
+    font-size: 18px;
+    width: 30%;
+}
+
+.descuento {
+    font-size: 16px;
+    color: green;
+    width: 70%;
+
+}
+
+.descrip {
+    font-size: 16px;
+    display: none;
+
+
+}
+
+main section article i {
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+    color: #39b54a;
+    }
+
+p {
+    font-size: 12px;
+    text-align: justify;
+}
+
+
+/* --------------------------------- */
+/* Footer  */
+
+.foot {
+    margin: 2%;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+
+.nav_foot {
+    width: 90%;
+    text-align: center;
+    margin: 20px;
+}
+
+h2 {
+    font-size: 12px;
+    text-align: center;
+}
+
+.iconsfoot {
+    color: #1259c3;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+/* --------------------------------- */
+/* Registro */
+.cajaLogin {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.regnegrita {
+    font-weight: bold;
+}
+
+.usuario {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #ebebeb;
+}
+
+.profileUsuario {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 15px;
+    background-color: #ebebeb;
+}
+
+.usuario p {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.usuario p input {
+    width: 20%;
+}
+
+#botonReseteo {
+    width: 30%;
+    border-style: none;
+    padding: 10px;
+    margin: 20px 0px;
+    border-radius: 5px;
+    color: white;
+    background-color: #AA0044;
+}
+
+#botonReseteo:hover {
+    background-color: #CC1155;
+}
+
+#botonIngreso {
+    width: 30%;
+    border-style: none;
+    padding: 10px;
+    margin: 20px 0px;
+    border-radius: 5px;
+    color: white;
+    background-color: green;
+}
+
+#botonIngreso:hover {
+    background-color: green;
+}
